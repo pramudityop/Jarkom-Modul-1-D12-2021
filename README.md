@@ -8,7 +8,7 @@ Laporan Resmi Praktikum Jaringan Komputer 2021 - D12
 Sebutkan web server yang digunakan pada "ichimarumaru.tech"! 
 
 Pada soal ini, kita menggunakan display filter untuk menampilkan semua paket yang spesifik menuju ke atau berasal dari alamat ichimarumaru.tech dengan mengisi
-```mysql contains "password"``` pada display filter. 
+```http.host contains "ichimarumaru.tech"``` pada display filter. 
 
 <img src="img/no1 gambar 1.png" width=700></img><br>
 
