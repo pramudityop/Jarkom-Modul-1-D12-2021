@@ -33,8 +33,6 @@ Pada soal ini kita menggunakan display filter. Dengan mengisi display filter den
 
 Setelah itu saya menklik paket ke2 lalu ke Hypertext Transfer Protocol (dibagian bawah) -> authorization  dan disitu terdapat credentialsnya yaitu id ```kuncimenujulautan``` dan passwordnya ```tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN``` untuk masuk ke website basic.ichimarumaru.tech
 
-<img src="img/no3 gambar 1.png" width=700></img><br>
-
 Setelah masuk ke websitenya disana disuruh menyelesaikan soal dengan jawaban sebagai berikut.
 
 <img src="img/no3 gambar 2.png" width=700></img><br>
