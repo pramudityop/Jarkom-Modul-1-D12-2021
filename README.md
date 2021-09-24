@@ -5,9 +5,47 @@ Laporan Resmi Praktikum Jaringan Komputer 2021 - D12
 - Muhammad Rizky Widodo (05111940000216)
 
 ## Soal No. 1
+Sebutkan web server yang digunakan pada "ichimarumaru.tech"! 
+
+Pada soal ini, kita menggunakan display filter untuk menampilkan semua paket yang spesifik menuju ke atau berasal dari alamat ichimarumaru.tech dengan mengisi
+```mysql contains "password"``` pada display filter. 
+
+<img src="img/no1 gambar 1.png" width=700></img><br>
+
+Setelah itu pilih paket teratas/salah satu paket lalu ke menu Analyze lalu follow -> TCP Stream maka akan keluar.
+
+<img src="img/no1 gambar 2.png" width=700></img><br>
+
+dapat dilihat dari gambar server yang digunakan adalah  nginx/1.18.0 (Ubuntu).
 ## Soal No. 2
+Temukan paket dari web-web yang menggunakan basic authentication method!
+
+Pada soal ini kita menggunakan display filter. Dengan mengisi display filter dengan  ```http.authbasic```  maka akan muncul paket yang menggunakan basic authentication method
+
+<img src="img/no2.png" width=700></img><br>
+
 ## Soal No. 3
+Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+
+Pada soal ini kita menggunakan display filter. Dengan mengisi display filter dengan ```http.host contains basic.ichimarumaru.tech``` 
+
+<img src="img/no3 gambar 1.png" width=700></img><br>
+
+Setelah itu saya menklik paket ke2 lalu ke Hypertext Transfer Protocol (dibagian bawah) -> authorization  dan disitu terdapat credentialsnya yaitu id ```kuncimenujulautan``` dan passwordnya ```tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN``` untuk masuk ke website basic.ichimarumaru.tech
+
+<img src="img/no3 gambar 1.png" width=700></img><br>
+
+Setelah masuk ke websitenya disana disuruh menyelesaikan soal dengan jawaban sebagai berikut.
+
+<img src="img/no3 gambar 2.png" width=700></img><br>
+
 ## Soal No. 4
+Temukan paket mysql yang mengandung perintah query select!
+
+Pada soal ini kita menggunakan display filter. Dengan mengisi display filter dengan ```mysql contains “select”``` untuk menampilkan data mysql yang mengandung kata "select" setelah itu paket akan muncul sebagai berikut.
+
+<img src="img/no4.png" width=700></img><br>
+
 ## Soal No. 5
 Login ke **portal.ichimarumaru.tech** kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 
@@ -82,3 +120,10 @@ IP address dari website kemenag.go.id yaitu ```103.7.13.247```. Lalu, untuk meng
 
 Tidak ada kendala dalam mengerjakan soal ini.
 ## Soal No. 15
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+Dengan memasukkan ```src host 182.30.138.188``` (ip masing masing) pada capture filter. Dan saya sambil membuka website random pada browser maka akan keluar seperti berikut.
+
+<img src="img/no15.png" width=700></img><br>
+
+
