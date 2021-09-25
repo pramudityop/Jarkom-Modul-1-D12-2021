@@ -95,7 +95,7 @@ Kendala yang dialami yaitu cukup kesulitan menemukan password untuk membuka file
 ## Soal No. 12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
-Pada soal diminta untuk mengambil paket yang mengandung **port 21**, maka filter expression pada capture filter yang digunakan yaitu ```port 21``` dan memilih **Adapter for loopback traffic capture**. 
+Pada soal diminta untuk mengambil paket yang mengandung **port 21**, maka filter expression pada capture filter yang digunakan yaitu ```port 21``` dan memilih **Adapter for loopback traffic capture** karena akan digunakan untuk melakukan capture localhost traffic. 
 
 <img src="img/soal-12-Wireshark-1.jpg" width=700></img><br>
 
@@ -103,12 +103,12 @@ Port 21 merupakan port yang dibuat untuk koneksi FTP,  digunakan oleh FTP client
 
 <img src="img/soal-12-Wireshark-2.jpg" width=700></img><br>
 
-Tidak ada kendala dalam mengerjakan soal ini.
+Kendala yang dialami yaitu awalnya menggunakan Wi-Fi untuk melakukan capture filter sehingga paket yang diminta tidak muncul. Setelah mengganti dengan Adapter for loopback traffic capture, barulah paket yang diminta muncul.
 ## Soal No. 13
 ## Soal No. 14
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke **kemenag.go.id**!
 
-Pada soal ini diminta untuk mengambil paket yang tujuannya ke website **kemenag.go.id**. Pertama, mencari IP address dari website tersebut yaitu menuliskan command ```ping kemenag.go.id``` pada command prompt.
+Pada soal ini diminta untuk mengambil paket yang tujuannya ke website **kemenag.go.id**. Pertama, membuka website tersebut. Lalu, mencari IP address dari website tersebut yaitu menuliskan command ```ping kemenag.go.id``` pada command prompt.
 
 <img src="img/soal-14-ip.jpg" width=700></img><br>
 
@@ -116,7 +116,7 @@ IP address dari website kemenag.go.id yaitu ```103.7.13.247```. Lalu, untuk meng
 
 <img src="img/soal-14-hasil.jpg" width=700></img><br>
 
-Tidak ada kendala dalam mengerjakan soal ini.
+Kendala yang dialami yaitu beberapa kali salah menginputkan filter expression pada capture filter sehingga paket tidak muncul.
 ## Soal No. 15
 Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 
