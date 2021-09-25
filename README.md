@@ -59,6 +59,8 @@ Kendala yang dialami yaitu mengalami beberapa kesalahan saat memasukkan filter e
 ## Soal No. 6
 Cari username dan password ketika melakukan login ke FTP Server!
 
+Pertama masukkan “ftp” kedalam Display Filter
+
 ![6a](./img/6a.jpg)
 
 Lalu ubah display filter menjadi string
@@ -69,8 +71,31 @@ Masukkan “USER” ke dalam search, dan User dan Password akan terlihat
 
 ![6c](./img/6c.jpg)
 
+Tidak ada kendala ketika mengerjakan soal ini
+
 ## Soal No. 7
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
+
+Ketik “frame contains “Real.pdf”. ” lalu klik kanan, Follow, TCP Stream
+
+![7a](./img/7a.jpg)
+
+Ubah data menjadi raw lalu simpan.
+
+![7b](./img/7b.jpg)
+
+![7c](./img/7c.jpg)
+
+Kendala yang dialami adalah salah mendownload file ketika pertama mencoba sehingga file yang di download tidak bisa dibuka
+
 ## Soal No. 8
+Cari paket yang menunjukan pengambilan file dari FTP tersebut!
+
+Dengan cara memasukkan ftp contains “STOR” pada display filter maka akan muncul
+
+![8](./img/8.jpg)
+
+Tidak ada kendala ketika mengerjakan soal ini
 ## Soal No. 9
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama **secret.zip**. Simpan dan buka file tersebut!
 
@@ -104,6 +129,17 @@ Kemudian masukkan password tersebut untuk membuka file yang telah disimpan dan d
 
 Kendala yang dialami yaitu cukup kesulitan menemukan password untuk membuka file karena tidak meng-extend setiap bagiannya. Pada mulanya mengira bahwa passwordnya adalah bukanapaapa sehingga file tidak bisa dibuka.
 ## Soal No. 11
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+
+Klik pada filter Wi-fi, lalu masukkan src port 80
+
+![11a](./img/11a.jpg)
+
+Hasilnya sebagi berikut:
+
+![11b](./img/11b.jpg)
+
+Kendala yang dialami adalah ketika mengerjakan soal ini tidak ada data yang masuk, sehingga pada percobaan pertama terlihat seperti ada kesalahan.
 ## Soal No. 12
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
@@ -117,6 +153,14 @@ Port 21 merupakan port yang dibuat untuk koneksi FTP,  digunakan oleh FTP client
 
 Kendala yang dialami yaitu awalnya menggunakan Wi-Fi untuk melakukan capture filter sehingga paket yang diminta tidak muncul. Setelah mengganti dengan Adapter for loopback traffic capture, barulah paket yang diminta muncul.
 ## Soal No. 13
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+Klik pada filter Wi-fi, lalu masukkan dst port 443
+
+![13](./img/13.jpg)
+
+Tidak ada kendala ketika mengerjakan soal ini
+
 ## Soal No. 14
 Filter sehingga wireshark hanya mengambil paket yang tujuannya ke **kemenag.go.id**!
 
