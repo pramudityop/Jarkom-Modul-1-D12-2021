@@ -58,10 +58,15 @@ Langkah selanjutnya yaitu masukkan username dan password yang telah didapat dan 
 Kendala yang dialami yaitu mengalami beberapa kesalahan saat memasukkan filter expression pada display filter sehingga tidak menemukan username dan password.
 ## Soal No. 6
 Cari username dan password ketika melakukan login ke FTP Server!
+
 ![6a](./img/6a.jpg)
+
 Lalu ubah display filter menjadi string
+
 ![6b](./img/6b.jpg)
+
 Masukkan “USER” ke dalam search, dan User dan Password akan terlihat
+
 ![6c](./img/6c.jpg)
 
 ## Soal No. 7
