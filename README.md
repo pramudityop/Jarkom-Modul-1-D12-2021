@@ -124,4 +124,4 @@ Dengan memasukkan ```src host 182.30.138.188``` (ip masing masing) pada capture 
 
 <img src="img/no15.png" width=700></img><br>
 
-
+Kendala yang dialami adalah saat mencoba mengerjakan soal terdapat paket yang muncul, namun ketika demo tidak ada paket yang muncul sama sekali.
